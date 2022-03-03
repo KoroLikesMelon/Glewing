@@ -1,0 +1,15 @@
+	static bool test = true;
+	if (test)// king code btw
+	{
+		if (!ImGui::Begin("Test WIndow", &test))
+		{
+			ImGui::End();
+		}
+		else
+		{
+			ImGui::Text("Application average %.3f ms/frame (%.1f FPS)",
+				1000.0f / ImGui::GetIO().Framerate,
+				ImGui::GetIO().Framerate);
+			ImGui::End();
+		}
+	}
