@@ -1,5 +1,5 @@
 YoutubeOpenGL.vcxproj.user
 YoutubeOpenGL.vcxproj.filters
 YoutubeOpenGL.vcxproj
-/x86
-.vs/
+x64/*
+gtk.txt
