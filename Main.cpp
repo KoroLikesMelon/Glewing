@@ -8,7 +8,6 @@
 #include <sstream>
 #include<GLFW/glfw3.h>
 #include <string>
-#include "stb_image.h"
 #define LEAN_AND_MEAN
 #define STB_IMAGE_IMPLEMENTATION
 
